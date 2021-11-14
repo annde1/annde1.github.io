@@ -1,0 +1,86 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family:'Crimson Text', serif; ;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/galaxy.jpg);
+	color: #6988A5;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: #F0B746;
+}
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+p[for="abtype"]{
+	margin-bottom:0;
+	margin-top:2rem;
+}
+fieldset{
+	border: 1px solid black ;
+	border-radius: 10px;
+	margin-bottom: 2rem;
+	margin-top: 1.5rem;
+}
+legend{
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin-bottom: 1.5rem;
+}
+label{
+	display: block;
+}
+textarea{
+	height:10rem;
+	padding: 1rem;
+}
+select{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-size: 1rem;
+}
+button{
+	font-size:1rem;
+	font-weight: bold;
+	background-color: #728196;
+	border-radius: 10px;
+	border:none;
+	padding:0.5rem 1rem;
+}
+button:hover {
+	background-color:black ;
+	color: #728196;
+}
+input:not([type="radio"]):not([type="checkbox"]), textarea{
+	display:block;
+	margin-bottom: 2rem;
+	width: 20rem;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	padding: 0 1rem;
+	border-radius: 10px;
+	border: none;
+}
+
+
+
+
+
+
+
+
+
